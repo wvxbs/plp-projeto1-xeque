@@ -74,5 +74,6 @@
                    (checkRay board kr kc (first dir) (second dir) '(#\b #\d)))
                  '((-1 -1) (-1 1) (1 -1) (1 1))))))))
 
-;; Exemplo de execução:
+;; Exemplo:
 ;; (chess '("tcbdrbct" "pppppppp" 8 8 8 8 "PPPPPPPP" "TCBDRBCT"))
+;; sbcl --load index.lisp --eval "(print (chess '(\"tcbdrbct\" \"pppppppp\" 8 8 8 8 \"PPPPPPPP\" \"TCBDRBCT\")))" --quit
